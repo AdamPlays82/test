@@ -1,6 +1,7 @@
 body {
    background: url(dust_scratches.png) fixed;
    height:100vh;
+   font-family: 'Lato', sans-serif;
 }
 .overlay {
     background-color: rgba(255, 255, 255, .4)
@@ -36,40 +37,20 @@ h2 {
 }
 
 .bio {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 100pt;
-    margin-right: 100pt;
+    font-family: 'Lato', sans-serif;
+    margin-left: 200pt;
+    margin-right: 200pt;
 }
 
-.talent1 {
+.talent {
+    align-content: center;
     text-align: center;
     font-size: 20pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 10pt;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
     border: solid teal;
-    margin: 10px;
-    width: 30%;
-    float: left;
-}
-
-.talent2 {
-    text-align: center;
-    font-size: 20pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 10pt;
-    border: solid teal;
-    margin: 10px;
-    width: 30%;
-    float: left;
-}
-
-.talent3 {
-    text-align: center;
-    font-size: 20pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 10pt;
-    border: solid teal;
-    margin: 10px;
-    width: 30%;
+    margin-left: 50pt;
+    margin-right: 50pt;
+    width: 100pt;
     float: left;
 }
