@@ -36,6 +36,10 @@ h2 {
     margin-bottom: 15pt;
 }
 
+.profilepic {
+    border-radius: 50%;
+}
+
 .bio {
     font-family: 'Lato', sans-serif;
     margin-left: 200pt;
