@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    background-color: darkgray;
+  }
+  
+@media only screen and (min-width: 425px) {
+    img {
+        width: 80%;
+        margin: auto;
+        }
+    }
+  
+@media only screen and (min-width: 768px) {
+    img {
+        width: 80%;
+        margin: 10%;
+        }
+    /*
+     * img should be exactly 80% the width of their containers
+     * img should have margins filling up the rest of their parent container
+     */
+    }
+
+@media only screen and (min-width: 1024px) {
+    img {
+        width: 25%;
+        float: left;
+        margin: 5%;
+        }
+    }
+     
+    img {
+      /* we've given you this part as a freebee for now */
+      clear: left;
+    }
+
+  .page-content {
+    max-width: 100%;
+    margin: 20px;
+  }
+
+p {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: midnightblue;
+}
+
+.paragraph1
+.paragraph2
+.paragraph3 {
+    display: block;
+    float: left;
+}
