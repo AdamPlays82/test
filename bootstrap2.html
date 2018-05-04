@@ -16,10 +16,6 @@
 </head>
 
 <style>
-    .card {
-        float: left;
-    }
-
     .logo {
         float: left;
         height: 50px;
@@ -39,6 +35,20 @@
         padding-top: 10px;
     }
 
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: teal;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: teal;
+        border-color: teal;
+    }
+
+
+    
 </style>
 
 <body>
@@ -102,57 +112,72 @@
         <h2> Pick-A-Puss from our Cat-alogue!</h2>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Neighbours_Siamese.jpg/800px-Neighbours_Siamese.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Dizzy</h5>
+                        <p class="card-text">Siamese, Male, Sassy</p>
+                        <a href="#" class="btn btn-primary">Adopt Me!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Sleepy_3-year-old_Red-Mackerel-tabby-with-white_male_Maine_Coon_cat.JPG"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Butcher</h5>
+                        <p class="card-text">Maine Coon, Male, Sanctimonious</p>
+                        <a href="#" class="btn btn-primary">Adopt Me!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="http://www.catster.com/wp-content/uploads/2017/01/maine-coon-01-119076985-600x497.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lily</h5>
+                        <p class="card-text">Maine Coon, Female, Itchy</p>
+                        <a href="#" class="btn btn-primary">Adopt Me!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Blue_shorthair_british_cat.jpg" alt="British Short Hair">
+                    <div class="card-body">
+                        <h5 class="card-title">Milo</h5>
+                        <p class="card-text">British Short Hair, Male, Omniscient</p>
+                        <a href="#" class="btn btn-primary">Adopt Me!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://c1.staticflickr.com/6/5209/5343370941_ba37a51f69_b.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pearl</h5>
+                        <p class="card-text">Persian, Female, Fancy</p>
+                        <a href="#" class="btn btn-primary">Adopt Me!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrp3O1kIEicxI11C8i-vWoOHe9jn_SRgH8qrkseuF-w5C3BIlm"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lucy</h5>
+                        <p class="card-text">Himilayan, Male, You'll find Him-a-layin' on the couch!</p>
+                        <a href="#" class="btn btn-primary">Adopt Me!</a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="card " style="width: 18rem;">
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Neighbours_Siamese.jpg/800px-Neighbours_Siamese.jpg"
-            alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Dizzy</h5>
-            <p class="card-text">Siamese, Male, Sassy</p>
-            <a href="#" class="btn btn-primary">Adopt Me!</a>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Sleepy_3-year-old_Red-Mackerel-tabby-with-white_male_Maine_Coon_cat.JPG"
-            alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Butcher</h5>
-            <p class="card-text">Maine Coon, Male, Sanctimonious</p>
-            <a href="#" class="btn btn-primary">Adopt Me!</a>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="http://www.catster.com/wp-content/uploads/2017/01/maine-coon-01-119076985-600x497.jpg" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Lily</h5>
-            <p class="card-text">Maine Coon, Female, Itchy</p>
-            <a href="#" class="btn btn-primary">Adopt Me!</a>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Blue_shorthair_british_cat.jpg" alt="British Short Hair">
-        <div class="card-body">
-            <h5 class="card-title">Milo</h5>
-            <p class="card-text">British Short Hair, Male, Omniscient</p>
-            <a href="#" class="btn btn-primary">Adopt Me!</a>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrp3O1kIEicxI11C8i-vWoOHe9jn_SRgH8qrkseuF-w5C3BIlm"
-            alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Lucy</h5>
-            <p class="card-text">Himilayan, Male, You'll find Him-a-layin' on the couch!</p>
-            <a href="#" class="btn btn-primary">Adopt Me!</a>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://c1.staticflickr.com/6/5209/5343370941_ba37a51f69_b.jpg" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Pearl</h5>
-            <p class="card-text">Persian, Female, Fancy</p>
-            <a href="#" class="btn btn-primary">Adopt Me!</a>
         </div>
     </div>
 </body>
