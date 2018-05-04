@@ -1,0 +1,151 @@
+<!-- The goal of this lesson is to understand the basics of the Bootrap grid. You should be able to add a row to a webpage successfully. -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Student Grid Basics</title>
+    <style>
+        .blue {
+            background: turquoise;
+        }
+
+        .red {
+            background: pink;
+        }
+
+        .green {
+            background: greenyellow;
+        }
+
+        .font {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="col font">
+            Auto Layout
+        </div>
+        <div class="row font">
+            <div class="col blue">
+                4 of 12
+            </div>
+            <div class="col red">
+                8 of 12
+            </div>
+            <div class="col green">
+                12 of 12
+            </div>
+        </div>
+
+        <div class="col font">
+            Auto Layout With An Explicit Mixed In
+        </div>
+        <div class="row font">
+            <div class="col blue">
+                2 of 12
+            </div>
+            <div class="col red">
+                4 of 12
+            </div>
+            <div class="col green">
+                6 of 12
+            </div>
+            <div class="col-sm-6 red">
+                12 of 12
+            </div>
+        </div>
+
+        <div class="col font">
+            Small Layouts for Mobile
+        </div>
+        <div class="row font">
+            <div class="col-sm-4 blue">
+                4 of 12
+            </div>
+            <div class="col-sm-4 red">
+                8 of 12
+            </div>
+            <div class="col-sm-4 green">
+                12 of 12
+            </div>
+        </div>
+
+        <div class="col font">
+            Medium
+        </div>
+        <div class="row font">
+            <div class="col-md-1 green">
+                1 of 12
+            </div>
+            <div class="col-md-3 blue">
+                4 of 12
+            </div>
+            <div class="col-md-4 red">
+                8 of 12
+            </div>
+            <div class="col-md-4 green">
+                12 of 12
+            </div>
+        </div>
+
+        <div class="col font">
+            Large
+        </div>
+        <div class="row font">
+            <div class="col-lg-1 green">
+                1 of 12
+            </div>
+            <div class="col-lg-3 blue">
+                4 of 12
+            </div>
+            <div class="col-lg-4 red">
+                8 of 12
+            </div>
+            <div class="col-lg-4 green">
+                12 of 12
+            </div>
+        </div>
+
+
+
+        <div class="col font">
+            Multiple on 1
+        </div>
+        <div class="row font">
+            <div class="col-sm-6 col-md-3 green">
+                1 of 12
+            </div>
+            <div class="col-sm-6 col-md-3 blue">
+                4 of 12
+            </div>
+            <div class="col-sm-6 col-md-3 red">
+                8 of 12
+            </div>
+            <div class="col-sm-6 col-md-3 green">
+                12 of 12
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

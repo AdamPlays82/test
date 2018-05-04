@@ -1,0 +1,160 @@
+<!-- Alignment is essential to all layouts. If you need an element centered at the top, middle or bottom of your div, alignment is there to help you. -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <title>Student Alignment</title>
+
+</head>
+
+<style>
+    .card {
+        float: left;
+    }
+
+    .logo {
+        float: left;
+        height: 50px;
+        padding-left: 20px;
+    }
+
+    h1 {
+        float: left;
+        margin-left: 10px;
+    }
+
+    h2 {
+        margin: 20px;
+    }
+
+    .carousel {
+        padding-top: 10px;
+    }
+
+</style>
+
+<body>
+
+    <div class="container">
+        <p></p>
+    </div>
+
+    <img class="logo" src="http://whiskersofhope.org/images/logo-banner.png" alt="Cat Logo">
+
+    <h1>Whiskers R We</h1>
+
+    <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                aria-selected="false">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+                aria-selected="false">Contact</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"></div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
+    </div>
+
+
+
+
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.thefamilypethospital.com/wp-content/uploads/2018/02/Cat-Banner.jpeg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.thefamilypethospital.com/wp-content/uploads/2018/02/Cat-Banner.jpeg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.thefamilypethospital.com/wp-content/uploads/2018/02/Cat-Banner.jpeg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div>
+        <h2> Pick-A-Puss from our Cat-alogue!</h2>
+    </div>
+
+
+    <div class="card " style="width: 18rem;">
+        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Neighbours_Siamese.jpg/800px-Neighbours_Siamese.jpg"
+            alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Dizzy</h5>
+            <p class="card-text">Siamese, Male, Sassy</p>
+            <a href="#" class="btn btn-primary">Adopt Me!</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Sleepy_3-year-old_Red-Mackerel-tabby-with-white_male_Maine_Coon_cat.JPG"
+            alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Butcher</h5>
+            <p class="card-text">Maine Coon, Male, Sanctimonious</p>
+            <a href="#" class="btn btn-primary">Adopt Me!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="http://www.catster.com/wp-content/uploads/2017/01/maine-coon-01-119076985-600x497.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Lily</h5>
+            <p class="card-text">Maine Coon, Female, Itchy</p>
+            <a href="#" class="btn btn-primary">Adopt Me!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Blue_shorthair_british_cat.jpg" alt="British Short Hair">
+        <div class="card-body">
+            <h5 class="card-title">Milo</h5>
+            <p class="card-text">British Short Hair, Male, Omniscient</p>
+            <a href="#" class="btn btn-primary">Adopt Me!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrp3O1kIEicxI11C8i-vWoOHe9jn_SRgH8qrkseuF-w5C3BIlm"
+            alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Lucy</h5>
+            <p class="card-text">Himilayan, Male, You'll find Him-a-layin' on the couch!</p>
+            <a href="#" class="btn btn-primary">Adopt Me!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://c1.staticflickr.com/6/5209/5343370941_ba37a51f69_b.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Pearl</h5>
+            <p class="card-text">Persian, Female, Fancy</p>
+            <a href="#" class="btn btn-primary">Adopt Me!</a>
+        </div>
+    </div>
+</body>
+
+</html>

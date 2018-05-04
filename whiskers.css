@@ -35,6 +35,14 @@ h1 {
     color: #333;
   }
 
+h2 {
+    font-family: 'Delius', cursive;
+    font-size: 40px;
+    color: #333; 
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
 li {
     float: right;
     margin-top: -50px;
@@ -63,7 +71,6 @@ li {
         padding: 3px;
         padding-top: 15px;
     }
-    
     }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -83,4 +90,227 @@ li {
     .material-icons {
         padding: 3px;
     }
+    }
+
+
+
+
+/* Cards */
+
+#adopt{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    }
+
+
+.card {
+    align-content: center;
+    transition: 0.3s;
+    border: solid;
+    color: darkslategray;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    width: 250px;
+    height: 250px;
+    margin-left: 5%;
+    }
+
+#title{
+    font-weight:bold;
+    }
+
+.container {
+    width: 86%;
+    margin: 5%;
+    padding: 2%;
+    }
+
+.image {
+    max-width: 90%;
+    max-height: 120px;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    }
+
+.card:hover {
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
+    background-color: rgb(68, 67, 67);
+    color: white;
+    }
+
+.card:active {
+    background-color: rgb(150, 150, 150);
+    }
+
+
+/* For mobile phones: Mobile was working fine until i tried to fix tablet. Not sure why it does this*/
+
+@media only screen and (min-width: 425px) and (max-width: 767px) { 
+    #adopt{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border-style: dotted;
+    }
+
+    .card {
+        float: left;
+        transition: 0.3s;
+        border:solid;
+        color: darkslategray;
+        border-radius: 2px;
+        width: 90%;
+        height: 250px;
+    }
+
+    .cats{
+        display: grid;
+        grid-template-columns: 35% 35%;
+        grid-template-rows: 30% 30%;
+        grid-row-gap: 10px;
+        }
+
+    #title{
+        font-weight:bold;
+    }
+
+    #location{
+        color: darkslategray;
+    }
+
+    .container{
+        width: 100%;
+        padding: 2%;
+    }
+
+    .image {
+        max-width:90%;
+        max-height:220px;
+        padding: 2%;
+    }
+
+    .card:hover {
+        box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
+        background-color: rgb(68, 67, 67);
+        color: white;
+    }
+
+    .card:active {
+        background-color: rgb(150, 150, 150);
+    }
+    }
+
+/* For tablets: I need some help with closing the gap between the columns/cards please! */
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+    #adopt{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border-style: dotted;
+    }
+
+    .cats{
+        display: grid;
+        grid-template-columns: 35% 35%;
+        grid-template-rows: 50% 50%;
+        grid-gap: 110px;
+    }
+
+    .card {
+        float: left;
+        transition: 0.3s;
+        border: solid;
+        color: darkslategray;
+        border-radius: 2px;
+        width: 350px;
+        height: 400px;
+
+    }
+
+    #title{
+        font-weight:bold;
+    }
+
+    #location{
+        color: darkslategray;
+    }
+
+    .container{
+        width: 100%;
+        padding: 2%;
+    }
+
+    .image {
+        max-width:90%;
+        max-height:220px;
+        padding: 2%;
+    }
+
+    .card:hover {
+        box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
+        background-color: rgb(68, 67, 67);
+        color: white;
+    }
+
+    .card:active {
+        background-color: rgb(150, 150, 150);
+    }
+    }
+
+@media only screen and (min-width: 1024px){
+    #adopt{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border-style: dotted;
+        }
+
+    .cats{
+        display: grid;
+        grid-template-columns: 35% 35% 35%;
+        grid-template-rows: 30% 30% 30%;
+        grid-row-gap: 50px;
+        }
+
+    .card {
+        align:center;
+        transition: 0.3s;
+        border:solid;
+        color: darkslategray;
+        border-radius: 2px;
+        width: 300px;
+        height: 350px;
+        margin-left: 10%;
+        }
+
+    #title{
+        font-weight:bold;
+        }
+
+    .container{
+        width: 100%;
+        margin: 5%;
+        padding: 2%;
+        }
+
+    .image {
+        max-width:90%;
+        max-height:120px;
+        margin-top: 5%;
+        margin-left: 5%;
+        padding: 2%;
+        }
+
+    .card:hover {
+        box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
+        background-color: rgb(68, 67, 67);
+        color: white;
+        }
+
+    .card:active {
+        background-color: rgb(150, 150, 150);
+        }
     }
