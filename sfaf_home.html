@@ -24,15 +24,30 @@
 
         h2 {
             font-family: 'Barrio', cursive;
-            font-size: 32px;
+            font-size: 56px;
+            margin-bottom: 30px;
         }
 
         h3 {
             font-family: 'Roboto', sans-serif;
-            font-weight: bold font-size: 28px;
+            font-weight: bold;
+            font-size: 32px;
         }
 
         h4 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 26px;
+        }
+
+
+        h5 {
+            padding-top: 10px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            color: white;
+        }
+
+        h6 {
             font-family: 'Roboto', sans-serif;
             font-size: 18px;
         }
@@ -51,7 +66,17 @@
 
 
         .main-nav {
-            padding-top: 100px;
+            padding-top: 92px;
+            margin-bottom: 60px;
+            background-color: #419C9F;
+        }
+
+        .tested {
+            background-color: #F68B47;
+        }
+
+        .donate {
+            background-color: #419C9F;
         }
     </style>
 
@@ -64,23 +89,27 @@
 
 
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light">
         <a class="navbar-brand" href="https://imgur.com/v19RHzE">
-            <img src="https://i.imgur.com/v19RHzE.png" height="200" ml="2" alt="San Francisco AIDS Foundation Logo" title="source: imgur.com"
+            <img src="https://i.imgur.com/mB5klVS.png" height="120" ml="2" alt="San Francisco AIDS Foundation Logo" title="source: imgur.com"
             />
 
         </a>
-        <h1>SFAF</h1>
+
 
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
 
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light">
             <form class="form-inline">
-                <button class="btn btn-outline-success" type="button">Get Tested</button>
-                <button class="btn btn-outline-success" type="button">Donate</button>
+                <button class="btn mr-1 tested" type="button">
+                    <h5>Get Tested</h5>
+                </button>
+                <button class="btn donate" type="button">
+                    <h5>Donate</h5>
+                </button>
             </form>
         </nav>
     </nav>
@@ -98,52 +127,119 @@
     <div class="main-nav">
         <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-                <a class="nav-link active" href="#">News & Events</a>
+                <a class="nav-link active" href="#">
+                    <h5>News &
+                        <br> Events
+                    </h5>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Get Tested</a>
+                <a class="nav-link" href="#">
+                    <h5>Get
+                        <br>Tested</h5>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Treatment & Prevention</a>
+                <a class="nav-link" href="#">
+                    <h5>Treatment &
+                        <br>Prevention</h5>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Find Community</a>
+                <a class="nav-link" href="#">
+                    <h5>Find
+                        <br>Community</h5>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Get Involved</a>
+                <a class="nav-link" href="#">
+                    <h5>Get
+                        <br>Involved</h5>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">More Info</a>
+                <a class="nav-link" href="#">
+                    <h5>More
+                        <br>Info</h5>
+                </a>
             </li>
         </ul>
     </div>
 
 
+
     <!-- Content Body -->
-    <div class="container">
+    <div class="container main-content">
         <div class="row">
             <div class="col-8">
-                <h2>News & Press Releases</h2>
+                <h2>News & Press</h2>
+
+
+                <div class="row">
+                    <div class="col-4">
+                        <img class="mr-3 mb-2" width="100%" src="https://i.imgur.com/lNFt2FU.png" alt="Young black woman's face">
+                    </div>
+                    <div class="col-8">
+                        <h3>Are drugs and alcohol interfering with your life?</h3>
+                        <h6>San Francisco AIDS Foundation staff explain how you don’t have to consider yourself an “addict” to
+                            come to the Stonewall Project.</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="mr-3 mb-2" width="100%" src="https://i.imgur.com/lNFt2FU.png" alt="Young black woman's face">
+                    </div>
+                    <div class="col-8">
+                        <h3>Are drugs and alcohol interfering with your life?</h3>
+                        <h6>San Francisco AIDS Foundation staff explain how you don’t have to consider yourself an “addict” to
+                            come to the Stonewall Project.</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="mr-3 mb-2" width="100%" src="https://i.imgur.com/lNFt2FU.png" alt="Young black woman's face">
+                    </div>
+                    <div class="col-8">
+                        <h3>Are drugs and alcohol interfering with your life?</h3>
+                        <h6>San Francisco AIDS Foundation staff explain how you don’t have to consider yourself an “addict” to
+                            come to the Stonewall Project.</h6>
+                    </div>
+                </div>
             </div>
             <div class="col-4">
-                <h2>Upcoming Events</h2>
+                <h2>Events</h2>
+
+                <h3>SF Pride 2018</h3>
+                <h6>Contingents march through the heart of the city, along Market Street, with more than 100,000 spectators.
+                </h6>
+                <h3>SF Pride 2018</h3>
+                <h6>Contingents march through the heart of the city, along Market Street, with more than 100,000 spectators.
+                </h6>
+                <h3>SF Pride 2018</h3>
+                <h6>Contingents march through the heart of the city, along Market Street, with more than 100,000 spectators.
+                </h6>
+                <h3>SF Pride 2018</h3>
+                <h6>Contingents march through the heart of the city, along Market Street, with more than 100,000 spectators.
+                </h6>
+
+
             </div>
         </div>
+    </div>
 
 
 
 
 
 
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
