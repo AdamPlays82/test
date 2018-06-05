@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barrio|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -19,13 +23,14 @@
     <style>
         h1 {
             font-family: 'Barrio', cursive;
-            font-size: 170px;
+            font-size: 70px;
+            line-height: 70%;
         }
 
         h2 {
             font-family: 'Barrio', cursive;
-            font-size: 56px;
-            margin-bottom: 30px;
+            font-size: 54px;
+            margin-bottom: 20px;
         }
 
         h3 {
@@ -52,22 +57,22 @@
             font-size: 18px;
         }
 
-        .welcome {
-            color: white;
-            margin-top: -390px;
-            margin-left: 130px;
+        .banner {
+            padding-bottom: 82px;
         }
 
-        p {
-            font-family: 'Barrio', cursive;
-            font-size: 90px;
-            margin: -60px;
+        .welcome {
+            color: white;
+            margin-top: -310px;
+            margin-left: 20px;
         }
+
+
 
 
         .main-nav {
-            padding-top: 92px;
-            margin-bottom: 60px;
+
+            margin-bottom: 40px;
             background-color: #419C9F;
         }
 
@@ -77,6 +82,15 @@
 
         .donate {
             background-color: #419C9F;
+        }
+
+        .social {
+            padding-top: 40px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
         }
     </style>
 
@@ -99,7 +113,11 @@
 
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                <i class="material-icons">
+                    search
+                </i>
+            </button>
         </form>
 
         <nav class="navbar navbar-light">
@@ -115,12 +133,12 @@
     </nav>
 
     <!-- Welcome Image -->
-    <img src="https://i.imgur.com/rhSYMtF.jpg" class="img-fluid" alt="Two stylish black men, Photo by Brunel Johnson on Unsplash">
+    <img src="https://i.imgur.com/rhSYMtF.jpg" class="img-fluid banner" alt="Two stylish black men, Photo by Brunel Johnson on Unsplash">
     <div class=welcome>
-        <p>San</p>
-        <p>Francisco</p>
-        <p>AIDS</p>
-        <p>Foundation</p>
+        <h1>San</h1>
+        <h1>Francisco</h1>
+        <h1>AIDS</h1>
+        <h1>Foundation</h1>
     </div>
 
     <!-- Nav -->
@@ -171,42 +189,42 @@
     <!-- Content Body -->
     <div class="container main-content">
         <div class="row">
-            <div class="col-8">
+            <div class="col-sm-8">
                 <h2>News & Press</h2>
 
 
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-4">
                         <img class="mr-3 mb-2" width="100%" src="https://i.imgur.com/lNFt2FU.png" alt="Young black woman's face">
                     </div>
-                    <div class="col-8">
+                    <div class="col-sm-8">
                         <h3>Are drugs and alcohol interfering with your life?</h3>
                         <h6>San Francisco AIDS Foundation staff explain how you don’t have to consider yourself an “addict” to
                             come to the Stonewall Project.</h6>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-4">
                         <img class="mr-3 mb-2" width="100%" src="https://i.imgur.com/lNFt2FU.png" alt="Young black woman's face">
                     </div>
-                    <div class="col-8">
+                    <div class="col-sm-8">
                         <h3>Are drugs and alcohol interfering with your life?</h3>
                         <h6>San Francisco AIDS Foundation staff explain how you don’t have to consider yourself an “addict” to
                             come to the Stonewall Project.</h6>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-4">
                         <img class="mr-3 mb-2" width="100%" src="https://i.imgur.com/lNFt2FU.png" alt="Young black woman's face">
                     </div>
-                    <div class="col-8">
+                    <div class="col-sm-8">
                         <h3>Are drugs and alcohol interfering with your life?</h3>
                         <h6>San Francisco AIDS Foundation staff explain how you don’t have to consider yourself an “addict” to
                             come to the Stonewall Project.</h6>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col">
                 <h2>Events</h2>
 
                 <h3>SF Pride 2018</h3>
@@ -228,9 +246,50 @@
     </div>
 
 
+    <!-- Social -->
+    <div class="container main-content bg-light social">
+        <div class="row">
+            <div class="col-6">
+                <h2>Get Our Newsletter</h2>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-4">
+                <h2>And More!</h2>
+                <i class="fab fa-facebook fa-5x"></i>
+                <i class="fab fa-twitter fa-5x"></i>
+                <i class="fab fa-youtube fa-5x"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container main-content bg-light footer">
+        <div class="row">
+            <div class="col">
+                <h6>© 2018 San Francisco AIDS Foundation. All rights reserved.
+                    <br> 1035 Market Street, Suite 400, San Francisco, CA 94103
+                    <br> feedback@sfaf.org | (415) 487-3000 </h6>
+
+                <a href="url">Terms of Use & Privacy Policy</a>
+                <a href="url">Disclaimer</a>
+                <br>
+                <br>
+                <h6>San Francisco AIDS Foundation is a California nonprofit public benefit corporation which has been granted
+                    tax exempt status under Internal Revenue Code section 501(c)(3). Our Federal EIN is 94-2927405 and our
+                    California corporation number is C1241510.</h6>
 
 
 
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
